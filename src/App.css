@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.switch button{
+  transition: 500ms;
+  font-size: 24px;
+  padding: 15px 30px;
+  border: none;
+  width: 120px;
+}
+
+
+.switch-ON button{
+  background: whitesmoke;
+
+  color: rgb(39, 201, 7);
+  background: rgb(22, 110, 4);
+  box-shadow: 0 0 10px rgb(22, 110, 4), 0 0 20px rgb(22, 110, 4), 0 0 40px rgb(22, 110, 4);
+  
+}
+
+.switch-ON button:hover{
+
+  color: rgb(22, 110, 4);
+  background: rgb(39, 201, 7);
+  box-shadow: 0 0 10px rgb(39, 201, 7), 0 0 40px rgb(39, 201, 7), 0 0 80px rgb(39, 201, 7);
+}
+
+.switch-OFF button{
+
+  
+  color: rgb(235, 8, 8);
+  background: rgb(150, 10, 10);
+  box-shadow: 0 0 10px rgb(150, 10, 10), 0 0 20px rgb(150, 10, 10), 0 0 40px rgb(150, 10, 10);
+  
+  
+}
+
+.switch-OFF button:hover{
+  color: rgb(150, 10, 10);
+  background: rgb(235, 8, 8);
+  box-shadow: 0 0 10px rgb(235, 8, 8), 0 0 40px rgb(235, 8, 8), 0 0 80px rgb(235, 8, 8);
+}
+
+
+.switch button:active{
+  
+  color: rgb(61, 60, 60);
+  background: rgb(172, 170, 170);
+  box-shadow: 0 0 5px rgb(172, 170, 170), 0 0 20px rgb(172, 170, 170), 0 0 40px rgb(172, 170, 170);
+}
+
